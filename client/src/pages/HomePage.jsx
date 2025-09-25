@@ -95,7 +95,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="font-mono text-lg text-cyan-400 hover:underline"
             >
-              {`${window.location.host}/${shortUrl}`}
+              {`${window.location.host}/api/${shortUrl}`}
             </a>
             <button
               onClick={handleCopy}

@@ -89,7 +89,7 @@ export default function AnalyticsPage() {
             <span className="font-mono text-white">{analytics.shortURL}</span>
           </div>
           <div className="pt-2">
-            <p className="text-slate-400 mb-1">Original URL:</p>
+            <p className="text-slate-400 mb-1">Original URL: 👇🏻</p>
             <a
               href={analytics.originalURL}
               target="_blank"

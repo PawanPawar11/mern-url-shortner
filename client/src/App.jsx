@@ -9,6 +9,9 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
+        {/* index prop means this is the default child route. It's the component
+        that will be rendered inside the parent's <Outlet /> when the URL
+        exactly matches the parent's path. */}
         <Route path="analytics" element={<AnalyticsPage />} />
       </Route>
     </Routes>
